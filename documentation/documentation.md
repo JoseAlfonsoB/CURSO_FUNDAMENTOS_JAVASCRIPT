@@ -61,3 +61,99 @@ const PI = 3.1416
 - Array
 - Function
 
+### DATOS PRIMITIVOS
+
+Son llamados así porque son valores **inmutables** y no se pueden cambiar. Si tienes el número `5`, no lo puedes **"editar"** ese cinco para que sea un seis, simplemente remplazas el valor completo.
+
+#### 1. **String**
+Es una cadena de caracteres y debe ser colocado entre comillas
+>[!IMPORTANT] EJEMPLO
+>```JS
+>let cadena = 'Hola Mundo'
+>```
+
+>[!NOTE]NOTA
+> En JS existen 3 tipos de comillas
+> 1. **Comillas dobles** `"Hola"`
+> 2. **Comillas simples** `'Hola'`
+> 3. **Backticks (comillas inversas)** `Hola`
+
+Las comillas dobles y las comillas simples son **comillas sencillas** (es decir, que funcionan igual).
+
+Pero las comillas de **Backticks** son comillas de **"función extendida"**. Ya que nos permiten **incrustar variables** y **expresiones** en una cadena de caracteres encerrandolas dentro de este bloque `${...}`.
+
+#### 2. **Number**
+
+Son números de tipo **entero y decimal**, así que son valores que representan todos los **números enteros** y los **números de punto decimal**.
+
+> [!IMPORTANT] EJEMPLO
+>```JS
+>let numero = 1243
+>let numero2 = 12.34
+>```
+
+#### 3. **Boolean** (TIPO LÓGICO)
+
+El tipo de dato Boolean **solo tienes dos posibles valores** `true` o `false`. 
+
+Este tipo de dato se usa comúnmente se usa para almacenar valores de **si** o **no**.
+
+#### 4. Undefined (desconocido)
+
+El valor que tiene una variable que no ha sido declarada, pero no tiene valor asignado.
+
+> [!IMPORTANT] EJEMPLO
+> ```JS
+> let edad;
+> alert(edad)
+>```
+
+#### 5. **Null** (vacio)
+
+Es una **aucencia intencional** de algun valor. (Es como decir: "Esta caja esta vacia apropósito").
+
+#### 6. **Symbol**
+Son **valores únicos** que sirven como **identificadores de propiedades**
+
+>[!IMPORTANT] EJEMPLO
+>```JS
+>let persona = {
+>    nombre:'Ana',
+>    edad:23
+>}
+>```
+
+#### 7. **Bigint**
+
+Valor utilizado para cuándo existen valores tan grandes que e tipo de dato **number** no lo pueda manejar.
+
+### DATOS COMPLEJOS: Tipos de Referencia u Objetos
+
+A diferencia de los primitivos, estos pueden almacenar **colecciones de datos** y son **mutables** (puedes cambiar su contenido sin remplazar la variable).
+
+#### 1. **Object**
+
+Los **objetos** se utilizan para **almacenar colecciones de datos** y entidades más complejas, como un **array** (arreglo).
+
+
+>[!IMPORTANT] EJEMPLO
+>```JS
+>let numeros = [1, 2, 3, 4]
+>```
+
+#### 2. **Funtions**
+
+Son bloques de código que ejecutan una acción en especifico.
+
+>[!IMPORTANT] EJEMPLO
+>```JS
+>function saludar (primerNombre) {
+>   console.log('Hola ', primerNombre);
+>
+>}
+>```
+
+### DIFERENCIAS CLAVE: VALORES vs REFERENCIAS
+
+
+
