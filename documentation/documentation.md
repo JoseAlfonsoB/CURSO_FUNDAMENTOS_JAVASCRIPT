@@ -2,7 +2,7 @@
 
 ## CLASE 1 **INSTALACIÓN DE VSC Y NODE.JS**
 
-## CLASE 2 **VARIABLES Y BUENAS PRÁCTICAS EN JS**
+## CLASE 4 **VARIABLES Y BUENAS PRÁCTICAS EN JS**
 ### Anatomía de una variable
 
 Las **variables** en programación, las podemos relacionar como un **caja** (una analogía del mundo real), ya que las cajas son objetos en los cuales podemos **almacenar objetos**, también otra característica de las cajas es que pueden tener **nombres y etíquetas**.
@@ -44,4 +44,20 @@ Ahora, cuándo vamos autilizar a **CONST**. CONST se va a utilizar cuándo tenga
 ```JS
 const PI = 3.1416
 ```
+
+## CLASE 5 **TIPOS DE DATOS EN JS (PRIMITIVOS Y COMPLEJOS)**
+
+1. DATOS PRIMITIVOS
+- String 
+- Number
+- Boolean
+- Null
+- Undefined
+- Symbol
+- BinInt
+
+2. DATOS COMPLEJOS
+- Object
+- Array
+- Function
 
