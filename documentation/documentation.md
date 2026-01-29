@@ -47,19 +47,14 @@ const PI = 3.1416
 
 ## CLASE 5 **TIPOS DE DATOS EN JS (PRIMITIVOS Y COMPLEJOS)**
 
-1. DATOS PRIMITIVOS
-- String 
-- Number
-- Boolean
-- Null
-- Undefined
-- Symbol
-- BinInt
-
-2. DATOS COMPLEJOS
-- Object
-- Array
-- Function
+|DATOS PRIMITIVOS|DATOS COMPLEJOS|
+|:---:|:---:|
+|string|Object|
+|Number|Array|
+|Boolean|Function|
+|Undefined||
+|Symbol||
+|Bigint||
 
 ### DATOS PRIMITIVOS
 
