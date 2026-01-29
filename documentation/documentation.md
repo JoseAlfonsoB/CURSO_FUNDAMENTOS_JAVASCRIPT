@@ -160,7 +160,7 @@ Son bloques de código que ejecutan una acción en especifico.
 |**Copia**|Si copias `a = b`, creas una copia física independiente|Si copias `obj1 = obj2`, ambos aputan al mismo lugar.|
 |**Comparación**|Se compara por su contenido|Se compara por su dirección (dos objetos identicos no son iguales si son instancias distintas).|
 
-> [!TIP]Sugerencia
+> [!TIP]
 > **¿Cómo saber qué tipo de datos es?**
 >
 >
