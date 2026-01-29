@@ -67,16 +67,15 @@ Son llamados así porque son valores **inmutables** y no se pueden cambiar. Si t
 
 #### 1. **String**
 Es una cadena de caracteres y debe ser colocado entre comillas
-> [!IMPORTANT] EJEMPLO
+> [!NOTE] 
 > ```JS
 > let cadena = 'Hola Mundo'
 > ```
 
-> [!NOTE]
-> En JS existen 3 tipos de comillas
-> 1. **Comillas dobles** `"Hola"`
-> 2. **Comillas simples** `'Hola'`
-> 3. **Backticks (comillas inversas)** `Hola`
+###### En JS existen 3 tipos de comillas
+1. **Comillas dobles** `"Hola"`
+2. **Comillas simples** `'Hola'`
+3. **Backticks (comillas inversas)** `Hola`
 
 Las comillas dobles y las comillas simples son **comillas sencillas** (es decir, que funcionan igual).
 
@@ -86,7 +85,7 @@ Pero las comillas de **Backticks** son comillas de **"función extendida"**. Ya 
 
 Son números de tipo **entero y decimal**, así que son valores que representan todos los **números enteros** y los **números de punto decimal**.
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > ```JS
 > let numero = 1243
 > let numero2 = 12.34
@@ -102,7 +101,7 @@ Este tipo de dato se usa comúnmente se usa para almacenar valores de **si** o *
 
 El valor que tiene una variable que no ha sido declarada, pero no tiene valor asignado.
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > ```JS
 > let edad;
 > alert(edad)
@@ -115,7 +114,7 @@ Es una **aucencia intencional** de algun valor. (Es como decir: "Esta caja esta 
 #### 6. **Symbol**
 Son **valores únicos** que sirven como **identificadores de propiedades**
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > ```JS
 > let persona = {
 >     nombre:'Ana',
@@ -136,7 +135,7 @@ A diferencia de los primitivos, estos pueden almacenar **colecciones de datos** 
 Los **objetos** se utilizan para **almacenar colecciones de datos** y entidades más complejas, como un **array** (arreglo).
 
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > ```JS
 > let numeros = [1, 2, 3, 4]
 > ```
@@ -158,10 +157,10 @@ Son bloques de código que ejecutan una acción en especifico.
 |**Características**|**Primitivos**|**Complejos** |
 |:----|:----|:----|
 |**Almacenamiento**|Se guarda por **valor**|Se guarda por **referencia** (*dirección de memoria*)
-|**Copia**|Si copias `a = b` creas una copia física independiente|Si copias `obj1 = obj2`, ambos aputan al mismo lugar.|
-|**Comparaión**|Se compara por su contenido|Se compara por su dirección (dos objetos identicos no son iguales si son instancias distintas).|
+|**Copia**|Si copias `a = b`, creas una copia física independiente|Si copias `obj1 = obj2`, ambos aputan al mismo lugar.|
+|**Comparación**|Se compara por su contenido|Se compara por su dirección (dos objetos identicos no son iguales si son instancias distintas).|
 
-> [!TIP]
+> [!TIP]Sugerencia
 > **¿Cómo saber qué tipo de datos es?**
 >
 >
